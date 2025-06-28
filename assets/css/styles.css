@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Primary-color-black: #152427;
+
+    --Primary-color-black-green: #143c3c;
+
+    --Secondary-color-blue: #83a17d;
+
+    --Secondary-color-gray: #6a8383;
+
+    --Secondary-color-light-green: #e2eddf;
+
+    --Text-color-black-gray: #575d5e;
+
+    --Text-color-light-gray: #7d8188;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Public Sans", sans-serif; */
+}
+
+/* Common */
+.container {
+    width: 1140px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
