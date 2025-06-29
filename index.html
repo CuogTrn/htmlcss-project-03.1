@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sonsie+One&display=swap"
             rel="stylesheet"
         />
 
@@ -130,16 +130,16 @@
             </div>
         </header>
 
-        <main>
+        <main style="height: 50000px">
             <section class="hero">
                 <div class="container">
                     <div class="hero__body">
                         <div class="hero__content">
-                            <h1 class="section__heading">
+                            <h1 class="section__heading section__heading-hero">
                                 We’re a creative design agency.
                             </h1>
 
-                            <p class="section__desc">
+                            <p class="section__desc section__desc-hero">
                                 A brilliant, modular agency template for
                                 startup’s build yours toady.
                             </p>
@@ -208,6 +208,78 @@
                     </div>
                 </div>
             </section>
+
+            <div class="client">
+                <div class="container">
+                    <div class="client__body">
+                        <ul class="client__list">
+                            <li class="client__item">
+                                <a
+                                    href="#!"
+                                    class="client__item-branch client__item-branch--google"
+                                    >Google</a
+                                >
+                            </li>
+
+                            <li class="client__item">
+                                <a href="#!" class="client__item-branch">
+                                    <div class="client-slack">
+                                        <img
+                                            class="client__item-branch client__item-slack--logo"
+                                            src="./assets/img/slack.svg"
+                                            alt=""
+                                        />
+
+                                        <a
+                                            href="#!"
+                                            class="client__item-branch client__item-branch--slack"
+                                            >Slack</a
+                                        >
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="client__item">
+                                <div class="client-discord">
+                                    <img
+                                        class="client__item-branch"
+                                        src="./assets/img/discord.svg"
+                                        alt=""
+                                    />
+                                    <a
+                                        href="#!"
+                                        class="client__item-branch client__item-branch--agworld"
+                                        >Agworld</a
+                                    >
+                                </div>
+                            </li>
+
+                            <li class="client__item">
+                                <a
+                                    href="#!"
+                                    class="client__item-branch client__item-branch--riotinto"
+                                    >Riotinto</a
+                                >
+                            </li>
+
+                            <li class="client__item">
+                                <div class="client-heroku">
+                                    <img
+                                        src="./assets/img/heroku.svg"
+                                        alt=""
+                                        class="client__item-branch"
+                                    />
+                                    <a
+                                        href=""
+                                        class="client__item-branch client__item-branch--heroku"
+                                        >HEROKU</a
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
