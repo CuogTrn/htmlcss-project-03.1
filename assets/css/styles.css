@@ -841,3 +841,114 @@ a {
     font-weight: 500;
     line-height: 1.79;
 }
+
+.blog {
+    margin-top: 184px;
+}
+
+.blog__top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__heading-top--blog {
+    margin-top: 10px;
+    width: 570px;
+    color: var(--Primary-color-black, #152427);
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.23;
+}
+
+.section__heading-top--blog::after {
+    display: inline-block;
+    content: "";
+    width: 82px;
+    height: 2px;
+    background: var(--Primary-color-black);
+    transform: translateY(-9px);
+}
+
+.section__desc--blog {
+    width: 409px;
+    color: var(--text-color-light-gray, #7d8188);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.65;
+}
+
+.blog__card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.blog__card-item {
+    margin-top: 90px;
+    width: 360px;
+}
+
+.blog__card-item:hover {
+    border-radius: 40px 40px 20px 20px;
+    background: var(--text-color-white, #fff);
+    box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+}
+
+.blog__card-item:hover .blog__card-info {
+    padding: 26px 30px 0;
+    margin-top: 0;
+}
+
+.blog__card-img {
+    width: 360px;
+    height: 317px;
+    border-radius: 40px 40px 0px 0px;
+    object-fit: cover;
+}
+
+.blog__card-info {
+    margin-top: 26px;
+    flex: 1;
+}
+
+.blog__card-info--tag {
+    border-radius: 20px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+    text-align: center;
+    width: 107px;
+    height: 26px;
+}
+
+.blog__card-info--tag-text {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.blog__card-info--heading {
+    margin-top: 13px;
+    color: var(--Primary-color-black-green, #143c3c);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.blog__card-info--heading::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #c4c4c4;
+    margin-top: 38px;
+}
+
+.blog__card-info--date {
+    color: var(--text-color-black-gray, #575d5e);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: right;
+    padding: 16px 0 12px;
+}
