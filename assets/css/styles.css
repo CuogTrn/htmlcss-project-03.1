@@ -150,7 +150,7 @@ a {
 .navbar__link--active::after {
     content: "";
     position: absolute;
-    bottom: -23px;
+    bottom: -25px;
     left: 0;
     right: 0;
     width: 16px;
@@ -306,11 +306,14 @@ a {
     right: 16px;
 }
 
+.client {
+    padding: 21px 0 53px;
+}
+
 .client__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 21px 0 53px;
     background: var(--Secondary-color-light-green);
     border-radius: 100.5px;
 }
@@ -372,10 +375,10 @@ a {
 
 .services {
     margin-top: 53px;
+    padding: 79px 0;
 }
 
 .service__body {
-    padding: 79px 0;
 }
 
 .service__top-row {
