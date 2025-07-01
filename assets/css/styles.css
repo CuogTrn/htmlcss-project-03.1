@@ -20,6 +20,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -150,7 +151,7 @@ a {
 .navbar__link--active::after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -30px;
     left: 0;
     right: 0;
     width: 16px;
@@ -158,11 +159,22 @@ a {
     background: var(--Primary-color-black-green, #143c3c);
 }
 
-.header-action__btn {
-    display: block;
+.header-action {
     margin-left: 88px;
 }
 
+.header-action__btn {
+    display: inline-block;
+    border: none;
+    color: var(--text-color-white, #fff);
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+}
+
+/* Hero */
 .hero {
     padding: 28px 0 21px;
 }
@@ -198,6 +210,15 @@ a {
     display: flex;
     align-items: center;
     margin-top: 42px;
+}
+
+.hero__btn {
+    color: var(--text-color-white, #fff);
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
 }
 
 .hero__watch-video {
@@ -445,6 +466,7 @@ a {
 .service__card-info {
     margin-top: 24px;
     height: 159px;
+    transition: all 0.25s ease-in-out;
 }
 
 .service__card-info--heading {
@@ -462,6 +484,10 @@ a {
     line-height: 1.71;
 }
 
+.service__card {
+    transition: all 0.25s ease-in-out;
+}
+
 .service__card:hover {
     background: #fff;
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
@@ -470,7 +496,8 @@ a {
 
 .service__card:hover .service__card-info {
     margin-top: 0;
-    padding: 24px 18px 23px;
+    transform: translateX(18px);
+    padding: 24px 0 23px;
 }
 
 .about {
@@ -812,6 +839,7 @@ a {
     height: 362px;
     border-radius: 160px;
     border: 1.5px solid #cecece;
+    transition: all 0.25s ease-in-out;
 }
 
 .feature__item:hover {
@@ -891,6 +919,7 @@ a {
 .blog__card-item {
     margin-top: 90px;
     width: 360px;
+    transition: 0.25s ease-in-out;
 }
 
 .blog__card-item:hover {
@@ -914,6 +943,7 @@ a {
 .blog__card-info {
     margin-top: 26px;
     flex: 1;
+    transition: 0.25s ease-in-out;
 }
 
 .blog__card-info--tag {
